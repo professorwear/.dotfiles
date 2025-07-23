@@ -1,0 +1,30 @@
+[general]
+working_directory = 'C:\Users\matthew' 
+
+[terminal]
+shell = { program = "pwsh" }
+
+[env]
+TERM = "xterm-256color"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+dimensions = { columns = 80, lines = 24}
+opacity = 0.9
+
+[scrolling]
+history = 10000
+multiplier = 3 # Lines to scroll
+
+[font]
+normal = { family = "0xProto Nerd Font", style = "Regular" }
+size = 13
+
+[keyboard]
+bindings = [
+{ key = "D", mods = "Control", chars = "exit\u000D" },
+{ key = "T", mods = "Control|Shift", action = "CreateNewWindow" },
+]
+
